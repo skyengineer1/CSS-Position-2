@@ -1,0 +1,64 @@
+body {
+    height: 2000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.sidebar {
+    display: flex;
+}
+
+div.left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+img.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+div.right {
+    margin-left: 110px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(49, 49, 49);
+    width: 200px;
+}
+
+div.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p.info {
+    color: white;
+    font-size: 20px;
+}
+
+span {
+    color: rgb(180, 180, 180);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+div.bottom {
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+    margin-top: 0;
+}
+
+p.titles {
+    margin-top: 0px;
+}
